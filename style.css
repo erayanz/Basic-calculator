@@ -21,3 +21,13 @@ body {
 .calculator input {
     width: calc(4 * 60px);
 }
+
+.screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Rest of the calculator styles */
+
