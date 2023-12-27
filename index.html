@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Simple Calculator with Welcome Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="welcomeScreen" class="screen">
+        <h2>Welcome! Please enter your name:</h2>
+        <input type="text" id="nameInput">
+        <button onclick="showCalculator()">Enter</button>
+    </div>
+
+    <div id="calculatorScreen" class="screen" style="display:none;">
+        <h2 id="welcomeMessage"></h2>
+        <div class="calculator">
+            <input type="text" id="display" disabled>
+            <!-- Calculator buttons go here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
     <title>Simple Calculator</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
