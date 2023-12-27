@@ -13,3 +13,12 @@ function calculateResult() {
 function clearDisplay() {
     document.getElementById('display').value = '';
 }
+
+function showCalculator() {
+    var name = document.getElementById('nameInput').value;
+    document.getElementById('welcomeMessage').innerText = 'مرحبا في الحاسبة البسيطة.. ' + name;
+    document.getElementById('welcomeScreen').style.display = 'none';
+    document.getElementById('calculatorScreen').style.display = 'block';
+}
+
+// Rest of your calculator functions
